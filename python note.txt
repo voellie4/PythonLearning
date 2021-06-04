@@ -1,0 +1,31 @@
+dir = ls
+cd show current directory
+cd .. go back 1 folder
+
+python pythonfile.py run file
+
+python - to enter python mode
+quit() get out
+
+type([var name]) to find out data type
+
+str[start:stop:step] from start to stop not including stop
+
+str * 3 print string 3 times
+
+"this is a string {}".format("abc") will print this is a string abc
+"the {2} {1} {0}".format("fox","brown","quick") will print the quick brown fox
+"the {0} {0} {0}".format("fox","brown","quick") will print the fox fox fox
+"the {q} {b} {f}".format(f="fox",b="brown",q="quick") will print the quick brown fox
+"the result was {r:1.3f}".format(r = result) result is a variable, the result was [value:width.precision f]
+f"my name is {varname}" will print my name is [value of varname]
+
+//install packages
+
+pip install [python package] 
+pip install colorama
+pip install requests
+pip install openpyxl - for python in excel
+
+from colorama import init/fore
+import openpyxl
