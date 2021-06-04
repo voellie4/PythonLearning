@@ -29,3 +29,17 @@ pip install openpyxl - for python in excel
 
 from colorama import init/fore
 import openpyxl
+
+git remote add origin  <REMOTE_URL> 
+git remote set-url origin https://github.com/your/repository
+git branch -M main
+git push -u origin main
+
+
+add __init__.py to folder to make python indicate it's a package folder
+
+try: , except: or except [error built-in class such as TypeError or OSError]:, else: no error and finally: always run even with break
+
+in the newest version of PyLint you need to add -r y (report yes) at the end of the command, so the full command should be:
+
+pylint myexample.py -r y
